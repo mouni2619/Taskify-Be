@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "npm install && npm run build-assets"
   },
-  "author": "rishav",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
