@@ -108,7 +108,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true })); // Increase the 
 
 const corsConfig = {
     credentials: true,
-    origin: 'http://localhost:3000',
+    origin: 'https://taskifyfrontend.vercel.app',
 };
 app.use(cors(corsConfig));
 app.use(morgan('tiny'));
