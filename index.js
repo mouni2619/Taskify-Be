@@ -141,7 +141,10 @@ app.use((err, req, res, next) => {
         message
     });
 });
-
+app.get('/', (req, res) => {
+    res.send('Hello, world!');
+  });
+  
 app.listen(port, () => {
     console.log("Connected");
     connect();
